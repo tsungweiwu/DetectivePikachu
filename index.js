@@ -14,7 +14,7 @@ var balls = ["PB", "GB", "UB", "PRB", "MB"]
 client.on("message", message => {
     if (balls.includes(message.content.toUpperCase())) {
         setTimeout(function () {
-            return message.channel.send("You can now catch another pokemon! " + message.author)
+            return message.channel.send("You can now catch another pokemon! " + "<@" + message.author + ">")
         }, 7650);
     }
 
