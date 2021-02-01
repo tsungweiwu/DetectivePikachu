@@ -14,5 +14,5 @@
 
 
 <p align="center">
-  <img width="500" height="380" src="https://user-images.githubusercontent.com/29762800/106408715-f653bc00-640c-11eb-98b9-f216a4d27426.png">
+  <img width="500" height="660" src="https://user-images.githubusercontent.com/29762800/106408715-f653bc00-640c-11eb-98b9-f216a4d27426.png">
 </p>
