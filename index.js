@@ -45,4 +45,27 @@ client.on("message", message => {
             console.log(err);
         }
     }
+
+    if (message.content === ';weak') {
+        let attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/802672605018062859/804803366264897546/unknown.png');
+        try {
+            return message.channel.send(attachment);
+        } catch (err) {
+            console.error(err);
+        }
+    }
+
+    if (message.content === ';user') {
+        try {
+            return message.channel.send('List of GIFS', {
+                embed: {
+                    color: '#ff7b00',
+                    description: '3 strong : ";b user 508692505810698241"\n'+
+                    '2 strong : ";b user 714185208773214270"'
+                }
+            })
+        } catch (err) {
+            console.error(err);
+        }
+    }
 })
