@@ -57,7 +57,7 @@ client.on("message", message => {
 
     if (message.content === ';user') {
         try {
-            return message.channel.send('List of GIFS', {
+            return message.channel.send('Training NPCs', {
                 embed: {
                     color: '#ff7b00',
                     description: '3 strong : ";b user 508692505810698241"\n'+
