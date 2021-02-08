@@ -23,11 +23,9 @@ client.on("message", message => {
     if (message.author.id === "664508672713424926") {
         try {
             if(message.embeds[0].footer.text.includes("Shiny") || message.embeds[0].footer.text.includes("Legendary")) {
-                console.log(message.embeds[0])
-
                 let description = message.embeds[0].description.split("**")
 
-                client.channels.cache.get('805288697527402506').send(message.url, {
+                client.channels.cache.get('805288697527402506').send({
                     embed: {
                         image: {
                             url: message.embeds[0].image.url
@@ -37,6 +35,7 @@ client.on("message", message => {
                         },
                         color: message.embeds[0].color,
                         title: description[1] + " found a " + description[3] + "!",
+                        description: "[Link to Message](" + message.url + ")"
                     }
                 })
             }
