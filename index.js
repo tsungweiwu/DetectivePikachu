@@ -60,8 +60,20 @@ client.on("message", message => {
             return message.channel.send('Training NPCs', {
                 embed: {
                     color: '#ff7b00',
-                    description: '3 strong : ";b user 508692505810698241"\n'+
-                    '2 strong : ";b user 714185208773214270"'
+                    fields: [
+                        {
+                            name: "Two Chancy's",
+                            value: ";b user 714185208773214270"
+                        },
+                        {
+                            name: "Three Chancy's",
+                            value: ";b user 508692505810698241"
+                        },
+                        {
+                            name: "Gopi's Training Acc",
+                            value: ";b user 269648177093672963"
+                        }
+                    ]
                 }
             })
         } catch (err) {
