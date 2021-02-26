@@ -10,9 +10,17 @@
 </p>
 
  
-- This also retrieves the embedded message for '**Shiny**' and '**Legendary**' Pokemons that are caught
+- Retrieves the embedded message for '**Shiny**' and '**Legendary**' Pokemons that are caught
   - To showcase to other server members of their achievements there is a detection system that captures these events
 
 <p align="center">
-  <img width="500" height="380" src="https://user-images.githubusercontent.com/29762800/106408207-f99a7800-640b-11eb-8880-e9f7ac7d9ae0.png">
+  <img width="500" height="380" src="https://user-images.githubusercontent.com/29762800/109243829-9ce07200-77ab-11eb-85fc-755555d9f7b1.png">
+</p>
+
+
+- Keeps track of all pokemons caught and saves them into a local database, which resets every midnight.
+  - To inform server members their daily catches
+
+<p align="center">
+  <img width="500" height="380" src="https://user-images.githubusercontent.com/29762800/109243851-a964ca80-77ab-11eb-93bb-1de50c18433c.png">
 </p>
