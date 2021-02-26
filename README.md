@@ -14,7 +14,7 @@
   - To showcase to other server members of their achievements there is a detection system that captures these events
 
 <p align="center">
-  <img width="500" height="380" src="https://user-images.githubusercontent.com/29762800/109243829-9ce07200-77ab-11eb-85fc-755555d9f7b1.png">
+  <img width="500" height="500" src="https://user-images.githubusercontent.com/29762800/109243829-9ce07200-77ab-11eb-85fc-755555d9f7b1.png">
 </p>
 
 
@@ -22,5 +22,5 @@
   - To inform server members their daily catches
 
 <p align="center">
-  <img width="500" height="380" src="https://user-images.githubusercontent.com/29762800/109243851-a964ca80-77ab-11eb-93bb-1de50c18433c.png">
+  <img width="500" height="450" src="https://user-images.githubusercontent.com/29762800/109243851-a964ca80-77ab-11eb-93bb-1de50c18433c.png">
 </p>
