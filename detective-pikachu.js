@@ -3,8 +3,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const schedule = require('node-schedule')
 const fs = require('fs');
+const TOKEN = process.env.TOKEN;
 
-client.login("");
+client.login(TOKEN);
 
 // reset
 var resetRule = new schedule.RecurrenceRule();
